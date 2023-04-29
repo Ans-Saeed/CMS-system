@@ -45,7 +45,7 @@ pipeline{
                 // // echo " build version ${NEW_VERSION}" works only in double quotes 
                 // }
                  echo "Testing the application"
-                echo "branch pipeline for ${BRANCH_NAME}"
+                echo "branch pipeline for $BRANCH_NAME"
             }
         }
         stage("build image"){
