@@ -30,7 +30,9 @@ pipeline{
                 
                 script{
                 echo 'building the image'
-                buildImage()
+                builddockerImage'anssaeed/my-repo:cms1.1'
+                dockerLogin()
+                dockerPush'anssaeed/my-repo:cms1.1'
                 }
             }
         }
