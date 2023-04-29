@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-@Library('jenkins-shared-library@1.0')
+@Library('jenkins-shared-library@master')
 def gv
 pipeline{
     agent any
